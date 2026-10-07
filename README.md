@@ -11,14 +11,12 @@ BookOrbit indexer plugin for a site
 1. Download Plugin.zip and unzip it
 2. Log into BookOrbit Web Portal & go to Settings > Server > Requests
 3. Select the `Install plugin` button and upload the `index.mjs`
-<img width="1019" height="89" alt="image" src="https://github.com/user-attachments/assets/9c0cf417-1494-4aec-bf57-4b560ed20c5f" />
 4. Configure the Plugin Settings including your FlareSolverr instance as seen below in `Plugin Settings`
 5. Run a `Test Connection`
 6. Search for books and the results should appear.
 7. Test a book by selecting the release.
 
 ### Plugin Settings
-
 - **Base URL**: Leave as-is unless the domain changes
 - **Session ID**: Leave blank/as-is unless required
 - **File variant** (`fileVariant`): which format to fetch, `epub` (default) or `pdf`.
